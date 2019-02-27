@@ -1,0 +1,31 @@
+.timeline-image {
+  border-radius: 5px;
+  height: 48px;
+  width: 48px;
+  margin-top: 2px;
+  flex: 1
+}
+
+.stock-area,
+.timeline-image {
+  display: inline-block;
+}
+
+.stock-area {
+  margin-left: 5px;
+  flex: 1;
+}
+
+.stock-area a {
+  margin-right: 3px;
+}
+
+.stock-container {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-delete {
+  opacity: 0.5;
+}
